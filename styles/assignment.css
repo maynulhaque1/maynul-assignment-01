@@ -88,11 +88,16 @@ nav .menu a {
     border: none;
     cursor: pointer;
     margin-bottom: 16px;
+    transition: all 0.5s ease;
+}
 
+.banner_container .access_btn:hover {
+    background-color: #469165;
+    color: #ffffff;
 }
 
 .banner_container .banner_content {
-    padding: 0 295px;
+    padding: 0 300px;
     text-align: center;
 }
 
@@ -240,18 +245,20 @@ nav .menu a {
     gap: 6px;
 }
 
-.brain_content .brain_content_headline img {
-    width: 20px;
-    height: 20px;
-} 
-
 .brain_content .brain_content_headline p {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     color: #001931;
     margin-bottom: 16px;
+    text-align: center;
 }
+
+.brain_content .brain_content_headline img {
+    display: block;
+    text-align: center;
+    padding-bottom: 14px;
+} 
 /* -----Brain end----- */
 /* -----access start----- */
 #access {
